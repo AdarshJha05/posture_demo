@@ -69,8 +69,8 @@ const Navbar = () => {
           
           {/* Right side CTA */}
           <div className="hidden md:flex items-center space-x-4">
-             <Link to="/customer" className="text-sm font-semibold text-slate-600 hover:text-slate-900 transition-colors">Sign In</Link>
-             <Link to="/customer" className="bg-slate-900 hover:bg-slate-800 text-white text-sm font-semibold py-2.5 px-5 rounded-full shadow-sm transition-all">Get Started</Link>
+             <Link to="/login" className="text-sm font-semibold text-slate-600 hover:text-slate-900 transition-colors">Sign In</Link>
+             <Link to="/signup" className="bg-slate-900 hover:bg-slate-800 text-white text-sm font-semibold py-2.5 px-5 rounded-full shadow-sm transition-all">Get Started</Link>
           </div>
           
           {/* Mobile menu button */}
