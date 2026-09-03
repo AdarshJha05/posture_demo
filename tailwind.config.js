@@ -14,6 +14,12 @@ export default {
           600: '#16a34a',
           900: '#14532d',
         },
+      },
+      keyframes: {
+        scan: {
+          '0%, 100%': { transform: 'translateY(0)' },
+          '50%': { transform: 'translateY(200px)' },
+        }
       }
     },
   },
