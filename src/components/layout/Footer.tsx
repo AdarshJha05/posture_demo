@@ -77,9 +77,12 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="mt-16 border-t border-slate-200 pt-8 sm:mt-20 lg:mt-24">
-          <p className="text-xs leading-5 text-slate-500 text-center">
+        <div className="mt-16 border-t border-slate-200 pt-8 sm:mt-20 lg:mt-24 flex flex-col md:flex-row items-center justify-between">
+          <p className="text-xs leading-5 text-slate-500 text-center md:text-left">
             &copy; {new Date().getFullYear()} Posture, Inc. All rights reserved. Not a replacement for professional medical diagnosis.
+          </p>
+          <p className="text-xs leading-5 text-slate-500 mt-4 md:mt-0">
+            Designed by <a href="https://rytfulmedia.in/" target="_blank" rel="noopener noreferrer" className="font-bold text-teal-600 hover:text-teal-500 underline decoration-teal-600/30 underline-offset-2 transition-all">RytfulMedia</a>.
           </p>
         </div>
       </div>
