@@ -1,4 +1,3 @@
-import React from 'react';
 import DashboardLayout from '../components/layout/DashboardLayout';
 import { Settings, Users, BookOpen, BarChart3, Database } from 'lucide-react';
 

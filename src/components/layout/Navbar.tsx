@@ -1,4 +1,3 @@
-import React from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { 
   Activity, 
@@ -11,7 +10,6 @@ import {
 
 const Navbar = () => {
   const location = useLocation();
-  const isDashboard = location.pathname !== '/';
 
   return (
     <nav className="bg-white border-b border-slate-200 sticky top-0 z-50">

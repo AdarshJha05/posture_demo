@@ -1,4 +1,3 @@
-import React from 'react';
 import DashboardLayout from '../components/layout/DashboardLayout';
 import { PackageSearch, FileText, LifeBuoy, MapPin } from 'lucide-react';
 
