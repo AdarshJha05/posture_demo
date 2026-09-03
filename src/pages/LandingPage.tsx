@@ -6,6 +6,7 @@ import {
   Activity,
   ShoppingBag
 } from 'lucide-react';
+import Footer from '../components/layout/Footer';
 
 const LandingPage = () => {
   return (
@@ -127,6 +128,9 @@ const LandingPage = () => {
           </div>
         </div>
       </div>
+
+      {/* Footer */}
+      <Footer />
     </div>
   );
 };
