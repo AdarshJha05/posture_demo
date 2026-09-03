@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom';
 import { Activity } from 'lucide-react';
+import { FaXTwitter, FaInstagram, FaFacebook, FaLinkedin } from 'react-icons/fa6';
 
 const Footer = () => {
   return (
@@ -18,17 +19,21 @@ const Footer = () => {
               Medically informed posture correction, combining low-friction retail with clinically-guided custom orders for your long-term health.
             </p>
             <div className="flex space-x-6">
-              <a href="#" className="text-slate-400 hover:text-teal-600 font-semibold text-sm">
-                Twitter
+              <a href="https://posture-demo-delta.vercel.app/#" className="text-slate-400 hover:text-slate-900 transition-colors">
+                <span className="sr-only">X</span>
+                <FaXTwitter className="h-5 w-5" />
               </a>
-              <a href="#" className="text-slate-400 hover:text-teal-600 font-semibold text-sm">
-                Instagram
+              <a href="https://posture-demo-delta.vercel.app/#" className="text-slate-400 hover:text-pink-600 transition-colors">
+                <span className="sr-only">Instagram</span>
+                <FaInstagram className="h-5 w-5" />
               </a>
-              <a href="#" className="text-slate-400 hover:text-teal-600 font-semibold text-sm">
-                Facebook
+              <a href="https://posture-demo-delta.vercel.app/#" className="text-slate-400 hover:text-blue-600 transition-colors">
+                <span className="sr-only">Facebook</span>
+                <FaFacebook className="h-5 w-5" />
               </a>
-              <a href="#" className="text-slate-400 hover:text-teal-600 font-semibold text-sm">
-                LinkedIn
+              <a href="https://posture-demo-delta.vercel.app/#" className="text-slate-400 hover:text-blue-700 transition-colors">
+                <span className="sr-only">LinkedIn</span>
+                <FaLinkedin className="h-5 w-5" />
               </a>
             </div>
           </div>
