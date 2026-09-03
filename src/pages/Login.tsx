@@ -1,9 +1,14 @@
 import { Link } from 'react-router-dom';
-import { Activity } from 'lucide-react';
+import { Activity, ArrowLeft } from 'lucide-react';
 
 const Login = () => {
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+    <div className="min-h-screen relative bg-slate-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+      {/* Back Button */}
+      <Link to="/" className="absolute top-6 left-6 flex items-center gap-2 text-sm font-semibold text-slate-500 hover:text-slate-900 transition-colors">
+        <ArrowLeft className="w-4 h-4" /> Back to home
+      </Link>
+
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <Link to="/" className="flex items-center justify-center gap-2 group">
           <div className="bg-gradient-to-tr from-teal-600 to-teal-500 p-2 rounded-xl shadow-sm">

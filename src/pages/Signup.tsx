@@ -1,9 +1,14 @@
 import { Link } from 'react-router-dom';
-import { Activity } from 'lucide-react';
+import { Activity, ArrowLeft } from 'lucide-react';
 
 const Signup = () => {
   return (
-    <div className="min-h-screen bg-slate-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+    <div className="min-h-screen relative bg-slate-50 flex flex-col justify-center py-12 sm:px-6 lg:px-8">
+      {/* Back Button */}
+      <Link to="/" className="absolute top-6 left-6 flex items-center gap-2 text-sm font-semibold text-slate-500 hover:text-slate-900 transition-colors">
+        <ArrowLeft className="w-4 h-4" /> Back to home
+      </Link>
+
       <div className="sm:mx-auto sm:w-full sm:max-w-md">
         <Link to="/" className="flex items-center justify-center gap-2 group">
           <div className="bg-gradient-to-tr from-teal-600 to-teal-500 p-2 rounded-xl shadow-sm">
@@ -14,12 +19,6 @@ const Signup = () => {
         <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-slate-900">
           Create your account
         </h2>
-        <p className="mt-2 text-center text-sm text-slate-600">
-          Already have an account?{' '}
-          <Link to="/login" className="font-medium text-teal-600 hover:text-teal-500 transition-colors">
-            Log in here
-          </Link>
-        </p>
       </div>
 
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
@@ -84,7 +83,14 @@ const Signup = () => {
               </Link>
             </div>
             
-            <p className="text-xs text-center text-slate-500">
+            <p className="text-center text-sm text-slate-600 mt-4">
+              Already have an account?{' '}
+              <Link to="/login" className="font-medium text-teal-600 hover:text-teal-500 transition-colors">
+                Log in here
+              </Link>
+            </p>
+            
+            <p className="text-xs text-center text-slate-500 mt-6">
               By registering, you agree to our <a href="#" className="text-teal-600 hover:underline">Terms of Service</a> and <a href="#" className="text-teal-600 hover:underline">Privacy Policy</a>.
             </p>
           </form>
