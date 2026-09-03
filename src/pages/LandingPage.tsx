@@ -59,7 +59,7 @@ const LandingPage = () => {
                   
                   {/* Simulated Camera Feed Image */}
                   <img 
-                    src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=800&auto=format&fit=crop" 
+                    src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg?auto=compress&cs=tinysrgb&w=800" 
                     alt="Posture Scan Demo" 
                     className="absolute inset-0 w-full h-full object-cover opacity-80"
                   />
@@ -112,7 +112,7 @@ const LandingPage = () => {
             <div className="bg-slate-50 rounded-3xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all group flex flex-col">
               <div className="h-48 sm:h-64 w-full relative overflow-hidden">
                 <img 
-                  src="https://images.unsplash.com/photo-1576091160550-2173ff9e5944?q=80&w=1000&auto=format&fit=crop" 
+                  src="https://images.pexels.com/photos/40568/medical-appointment-doctor-healthcare-40568.jpeg?auto=compress&cs=tinysrgb&w=800" 
                   alt="Doctor reviewing tablet" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
@@ -139,7 +139,7 @@ const LandingPage = () => {
             <div className="bg-white rounded-3xl overflow-hidden border border-slate-200 shadow-sm hover:shadow-xl transition-all group flex flex-col">
               <div className="h-48 sm:h-64 w-full relative overflow-hidden bg-slate-100">
                 <img 
-                  src="https://images.unsplash.com/photo-1608248593801-789a87d605c1?q=80&w=1000&auto=format&fit=crop" 
+                  src="https://images.pexels.com/photos/6169033/pexels-photo-6169033.jpeg?auto=compress&cs=tinysrgb&w=800" 
                   alt="Premium package box" 
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700"
                 />
