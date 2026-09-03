@@ -14,12 +14,6 @@ const Login = () => {
         <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-slate-900">
           Sign in to your account
         </h2>
-        <p className="mt-2 text-center text-sm text-slate-600">
-          Or{' '}
-          <Link to="/signup" className="font-medium text-teal-600 hover:text-teal-500 transition-colors">
-            start your custom assessment today
-          </Link>
-        </p>
       </div>
 
       <div className="mt-8 sm:mx-auto sm:w-full sm:max-w-md">
@@ -86,6 +80,13 @@ const Login = () => {
                 Sign in
               </Link>
             </div>
+            
+            <p className="text-center text-sm text-slate-600 mt-4">
+              Don't have an account yet?{' '}
+              <Link to="/signup" className="font-medium text-teal-600 hover:text-teal-500 transition-colors">
+                Sign up here
+              </Link>
+            </p>
           </form>
 
           <div className="mt-6">
